@@ -1,0 +1,80 @@
+html {
+    background: url('/img/background.webp') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main-container {
+    position: absolute;
+    display: grid;
+    grid-template-rows: 220px 200px;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: rgb(200, 200, 200);
+    user-select: none;
+}
+
+.title-container {
+    width: 100vw;
+    text-align: center;
+}
+
+.title-container > a {
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    transition: 200ms;
+}
+
+.title-container > a:hover {
+    color: rgb(230, 230, 230);
+}
+
+.title-container > p > a {
+    color: rgba(103, 136, 199, 0.85);
+}
+
+.title-container img {
+    width: 128px;
+    border-radius: 8px;
+}
+
+.links-container {
+    text-align: center;
+}
+
+.links-container > h2 {
+    font-weight: 600;
+}
+
+.links-container > .links {
+    display: flex;
+    justify-content: center;
+}
+
+.links-container > .links > a {
+    margin: 0 4px;
+    text-decoration: none;
+}
+
+.links-container > .links > a > button {
+    background:rgba(103, 136, 199, 0.85);
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 200ms;
+}
+
+.links-container > .links > a > button:hover {
+    background:rgba(103, 136, 199, 0.9);
+}
+
+.links-container > .links > a > button > img {
+    width: 48px;
+}
