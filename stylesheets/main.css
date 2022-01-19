@@ -70,6 +70,7 @@ html {
     align-items: center;
     justify-content: center;
     transition: 200ms;
+    backdrop-filter: blur(2px);
 }
 
 .links-container > .links > a > button:hover {
