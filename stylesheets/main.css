@@ -38,7 +38,7 @@ html {
 
 .title-container img {
     width: 128px;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 .links-container {
@@ -63,8 +63,8 @@ html {
     background:rgba(103, 136, 199, 0.85);
     width: 80px;
     height: 80px;
-    border: none;
-    border-radius: 8px;
+    border: 2px solid rgb(103, 137, 199);
+    border-radius: 12px;
     cursor: pointer;
     display: flex;
     align-items: center;
